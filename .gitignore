@@ -1,0 +1,15 @@
+# 构建产物
+/target/
+/dist/
+/rust_out/
+/rust_payload/
+
+# 签名证书（私钥绝不能进仓库）
+/certs/
+
+# 临时文件
+/scratch/
+/dlcheck/
+err*.txt
+test.rc
+*.tmp
